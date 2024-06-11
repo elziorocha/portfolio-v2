@@ -19,6 +19,12 @@ export default {
         '2xl': '0 25px 50px rgba(0, 0, 0, 1)',
         'none': 'none',
       },
+      colors: {
+        'email': '#ea4335',
+        'whatsapp': '#1eb455',
+        'github': '#8d26e7',
+        'linkedin': '#0077B5',
+      },
     },
   },
   plugins: [

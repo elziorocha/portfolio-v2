@@ -3,6 +3,7 @@ import './Global.css'
 import Apresentação from './pages/App/Apresentação'
 import Tecnologias from './pages/App/Tecnologias'
 import Portfolio from './pages/App/Portfolio'
+import Contato from './pages/App/Contato'
 
 const App = () => {
 
@@ -12,6 +13,7 @@ const App = () => {
       <Apresentação />
       <Tecnologias />
       <Portfolio />
+      <Contato />
     </div>
   )
 }
