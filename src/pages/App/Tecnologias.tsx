@@ -6,8 +6,9 @@ SiClerk, SiFirebase, SiSocketdotio, SiCypress } from "react-icons/si";
 
 const Tecnologias = () => {
     return (
-        <div className="flex flex-col items-center justify-center gap-6 text-neutral-700">
-            <h1 className="mb-6 text-4xl font-bold text-orange-600 text-shadow-md">Tecnologias Utilizadas</h1>
+        <div className="flex w-2/3 flex-col items-center justify-center gap-8 self-center 
+        rounded p-12 text-neutral-700 shadow-[inset_0_4px_20px_7px_rgb(0,0,0)]">
+            <h1 className="mb-3 text-center text-4xl font-bold text-orange-600 text-shadow-md">Tecnologias Utilizadas</h1>
             <div className="icons-container flex flex-row gap-4">
                 <SiVisualstudio className="transition-all hover:text-sky-700"/>
                 <FaHtml5 className="transition-all hover:text-orange-700"/>
