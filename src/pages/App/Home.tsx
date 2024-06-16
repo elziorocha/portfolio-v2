@@ -7,7 +7,7 @@ import Tecnologias from "../Home/Tecnologias"
 
 const Home = () => {
     return (
-        <div className='mb-16 flex flex-col gap-16'>
+        <div className='mb-20 flex flex-col gap-16'>
             <Inicio />
             <Apresentação />
             <Tecnologias />
