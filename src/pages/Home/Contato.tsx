@@ -47,7 +47,9 @@ const Contato = () => {
     return (
         <>
             <div className='flex flex-col items-center justify-center gap-8 font-Nunito'>
-                <h1 className="mt-8 text-center text-3xl font-bold text-orange-600 text-shadow-md md:text-5xl">Entre em contato comigo!</h1>
+                <h1 className="mt-8 text-center text-3xl font-bold text-orange-600 text-shadow-md md:text-5xl">
+                    Entre em contato comigo!
+                </h1>
 
                 <div className="flex flex-row flex-wrap items-center justify-center gap-14 p-8 md:gap-28 md:p-32 lg:p-8">
                     <FaEnvelopeSquare onClick={handleEmailClick} className='size-28 cursor-pointer rounded-md
@@ -60,15 +62,19 @@ const Contato = () => {
                     transition-all duration-200 hover:text-whatsapp md:size-36 lg:size-28'/>
 
                     <a href="https://www.linkedin.com/in/elziorocha/" target="_blank" rel="noopener noreferrer"><FaLinkedin
-                    className='size-28 cursor-pointer rounded-md border-4 border-black bg-white
+                        className='size-28 cursor-pointer rounded-md border-4 border-black bg-white
                     shadow-[-5px_5px_0_1px_#ea580c,-8px_8px_0px_1px_black,-3px_8px_0px_1px_black,-8px_2px_0px_1px_black] transition-all duration-200 hover:text-linkedin md:size-36 lg:size-28'/></a>
 
-                    <a href='https://github.com/elziorocha' target="_blank" rel="noopener noreferrer"><FaGithubSquare 
-                    className='size-28 cursor-pointer rounded-md border-4 border-black bg-white
+                    <a href='https://github.com/elziorocha' target="_blank" rel="noopener noreferrer"><FaGithubSquare
+                        className='size-28 cursor-pointer rounded-md border-4 border-black bg-white
                     shadow-[-5px_5px_0_1px_#ea580c,-8px_8px_0px_1px_black,-3px_8px_0px_1px_black,-8px_2px_0px_1px_black] transition-all duration-200 hover:text-github md:size-36 lg:size-28'/></a>
                 </div>
 
-                <div className='mt-6 flex w-10/12 items-center justify-center rounded-md border-4 border-black
+                <h1 className="mt-4 text-center text-3xl font-bold text-orange-600 text-shadow-md md:text-5xl">
+                    Me envie uma mensagem!
+                </h1>
+
+                <div className='mt-2 flex w-10/12 items-center justify-center rounded-md border-4 border-black
                 bg-orange-600 p-6 shadow-[-8px_7px_1px_rgb(0,0,0)] md:w-6/12'>
                     <form ref={form} onSubmit={sendEmail} className='flex w-64 flex-col text-2xl font-bold
                     text-gray-200 text-shadow md:w-80'>
@@ -96,8 +102,8 @@ const Contato = () => {
 
                         <div className='bg-orange-600 pt-5 text-center'>
                             <input type="submit" value="Enviar"
-                                className='cursor-pointer rounded border-2 border-black px-6 py-3 text-2xl font-bold
-                            text-gray-200 shadow-[-4px_3px_1px_black] text-shadow' />
+                            className='cursor-pointer rounded border-2 border-black px-6 py-3 text-2xl font-bold
+                            text-gray-200 shadow-[-4px_3px_1px_black] transition-all text-shadow hover:bg-orange-700' />
                         </div>
                     </form>
                 </div>

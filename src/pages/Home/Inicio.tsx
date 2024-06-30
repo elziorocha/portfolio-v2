@@ -1,4 +1,4 @@
-
+import Typewriter from "../../Components/Typewriter"
 
 
 const Inicio = () => {
@@ -10,8 +10,12 @@ const Inicio = () => {
                     <h1 className="text-[2.75rem] md:text-7xl xl:text-7xl">Enzo Rocha</h1>
                     <h1 className="text-3xl md:text-5xl xl:text-5xl">Desenvolvedor FrontEnd</h1>
                 </div>
-                <img src={''} alt="foto" className="custom-border-radius size-64 border-4 border-orange-600 
-            shadow-[0_0_15px_4px_rgb(0,0,0)]" />
+                <img src={'/images/eu1.jpg'} alt="foto" className="custom-border-radius size-64 border-4 border-orange-600 
+                object-cover shadow-[0_0_15px_4px_rgb(0,0,0)]" />
+            </div>
+
+            <div className="text-center font-Nunito text-3xl font-bold text-orange-600 text-shadow-md lg:text-4xl">
+                <Typewriter />
             </div>
         </>
     )
