@@ -47,63 +47,66 @@ const Contato = () => {
     return (
         <>
             <div className='flex flex-col items-center justify-center gap-8 font-Nunito'>
-                <h1 className="mt-8 px-2 text-center text-3xl font-bold text-orange-600 text-shadow-md md:text-5xl">
+                <h1 className="mt-8 px-2 text-center text-3xl font-bold text-orange-600
+                text-shadow-md dark:text-violet-800 dark:text-shadow md:text-5xl">
                     Entre em contato comigo!
                 </h1>
 
                 <div className="flex flex-row flex-wrap items-center justify-center gap-14 p-8 md:gap-28 md:p-32 lg:p-8">
                     <FaEnvelopeSquare onClick={handleEmailClick} className='size-28 cursor-pointer rounded-md
-                    border-4 border-black bg-white
-                    shadow-[-5px_5px_0_1px_#ea580c,-8px_8px_0px_1px_black,-3px_8px_0px_1px_black,-8px_2px_0px_1px_black]
-                    transition-all duration-200 hover:text-email md:size-36 lg:size-28'/>
+                    border-4 border-black bg-white shadow-[-5px_5px_0_1px_#ea580c,-8px_8px_0px_1px_black,-3px_8px_0px_1px_black,-8px_2px_0px_1px_black]
+                    transition-all duration-200 hover:text-email dark:shadow-[-5px_5px_0_1px_#4c1d95,-8px_8px_0px_1px_black,-3px_8px_0px_1px_black,-8px_2px_0px_1px_black] md:size-36 lg:size-28'/>
 
                     <FaWhatsappSquare onClick={handleWhatsappClick} className='size-28 cursor-pointer rounded-md border-4
                     border-black bg-white shadow-[-5px_5px_0_1px_#ea580c,-8px_8px_0px_1px_black,-3px_8px_0px_1px_black,-8px_2px_0px_1px_black]
-                    transition-all duration-200 hover:text-whatsapp md:size-36 lg:size-28'/>
+                    transition-all duration-200 hover:text-whatsapp dark:shadow-[-5px_5px_0_1px_#4c1d95,-8px_8px_0px_1px_black,-3px_8px_0px_1px_black,-8px_2px_0px_1px_black] md:size-36 lg:size-28'/>
 
                     <a href="https://www.linkedin.com/in/elziorocha/" target="_blank" rel="noopener noreferrer"><FaLinkedin
                         className='size-28 cursor-pointer rounded-md border-4 border-black bg-white
-                    shadow-[-5px_5px_0_1px_#ea580c,-8px_8px_0px_1px_black,-3px_8px_0px_1px_black,-8px_2px_0px_1px_black] transition-all duration-200 hover:text-linkedin md:size-36 lg:size-28'/></a>
+                    shadow-[-5px_5px_0_1px_#ea580c,-8px_8px_0px_1px_black,-3px_8px_0px_1px_black,-8px_2px_0px_1px_black] transition-all
+                    duration-200 hover:text-linkedin dark:shadow-[-5px_5px_0_1px_#4c1d95,-8px_8px_0px_1px_black,-3px_8px_0px_1px_black,-8px_2px_0px_1px_black] md:size-36 lg:size-28'/></a>
 
                     <a href='https://github.com/elziorocha' target="_blank" rel="noopener noreferrer"><FaGithubSquare
-                        className='size-28 cursor-pointer rounded-md border-4 border-black bg-white
-                    shadow-[-5px_5px_0_1px_#ea580c,-8px_8px_0px_1px_black,-3px_8px_0px_1px_black,-8px_2px_0px_1px_black] transition-all duration-200 hover:text-github md:size-36 lg:size-28'/></a>
+                        className='size-28 cursor-pointer rounded-md border-4 border-black bg-white shadow-[-5px_5px_0_1px_#ea580c,-8px_8px_0px_1px_black,-3px_8px_0px_1px_black,-8px_2px_0px_1px_black]
+                    transition-all duration-200 hover:text-github dark:shadow-[-5px_5px_0_1px_#4c1d95,-8px_8px_0px_1px_black,-3px_8px_0px_1px_black,-8px_2px_0px_1px_black] md:size-36 lg:size-28'/></a>
                 </div>
 
-                <h1 className="mt-4 px-2 text-center text-3xl font-bold text-orange-600 text-shadow-md md:text-5xl">
+                <h1 className="mt-4 px-2 text-center text-3xl font-bold text-orange-600 text-shadow-md
+                dark:text-violet-800 dark:text-shadow md:text-5xl">
                     Me envie uma mensagem!
                 </h1>
 
                 <div className='mt-2 flex w-10/12 items-center justify-center rounded-md border-4 border-black
-                bg-orange-600 p-6 shadow-[-8px_7px_1px_rgb(0,0,0)] md:w-6/12'>
+                bg-orange-600 p-6 shadow-[-8px_7px_1px_rgb(0,0,0)] dark:bg-violet-900 md:w-6/12'>
                     <form ref={form} onSubmit={sendEmail} className='flex w-64 flex-col text-2xl font-bold
                     text-gray-200 text-shadow md:w-80'>
-                        <div className='flex flex-col bg-orange-600 pb-3'>
-                            <label className='bg-orange-600 pb-2 pl-2 pt-4'>Nome</label>
+                        <div className='flex flex-col bg-orange-600 pb-3 dark:bg-violet-900'>
+                            <label className='bg-orange-600 pb-2 pl-2 pt-4 dark:bg-violet-900'>Nome</label>
                             <input type="text" name="user_name" placeholder='Seu Nome'
                                 className='rounded-md border-2 border-black bg-gray-200 p-1.5 text-base font-semibold
                             text-black outline-none' />
                         </div>
 
-                        <div className='flex flex-col bg-orange-600 pb-3'>
-                            <label className='bg-orange-600 pb-2 pl-2'>Email</label>
+                        <div className='flex flex-col bg-orange-600 pb-3 dark:bg-violet-900'>
+                            <label className='bg-orange-600 pb-2 pl-2 dark:bg-violet-900'>Email</label>
                             <input type="email" name="user_email" placeholder='Seu Email'
                                 className='rounded-md border-2 border-black bg-gray-200 p-1.5 text-base font-semibold
                             text-black outline-none' />
                         </div>
 
-                        <div className='bg-orange-600 pb-3 pt-5'>
-                            <label className='bg-orange-600 pl-2 pt-6'>Mensagem</label>
+                        <div className='bg-orange-600 pb-3 pt-5 dark:bg-violet-900'>
+                            <label className='bg-orange-600 pl-2 pt-6 dark:bg-violet-900'>Mensagem</label>
                             <textarea name="message" rows={1} placeholder='Digite sua mensagem'
                                 className='mt-2 w-64 resize-none overflow-hidden rounded-md border-2 border-black bg-gray-200 p-1.5
                             text-base font-semibold text-black outline-none md:w-80'
                                 onInput={autoResize} />
                         </div>
 
-                        <div className='bg-orange-600 pt-5 text-center'>
+                        <div className='bg-orange-600 pt-5 text-center dark:bg-violet-900'>
                             <input type="submit" value="Enviar"
-                            className='cursor-pointer rounded border-2 border-black px-6 py-3 text-2xl font-bold
-                            text-gray-200 shadow-[-4px_3px_1px_black] transition-all text-shadow hover:bg-orange-700' />
+                                className='cursor-pointer rounded border-2 border-black px-6 py-3 text-2xl font-bold
+                            text-gray-200 shadow-[-4px_3px_1px_black] transition-all text-shadow hover:bg-orange-700
+                            dark:hover:bg-violet-950' />
                         </div>
                     </form>
                 </div>

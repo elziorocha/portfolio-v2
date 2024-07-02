@@ -21,10 +21,11 @@ code {
 }
 
 body {
-  @apply bg-[#141414] dark:bg-gray-300;
-  background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre.png");
+  @apply bg-[#141414] dark:bg-slate-300;
+  @apply bg-[url("https://www.transparenttextures.com/patterns/carbon-fibre.png")]
+  dark:bg-[url("https://www.transparenttextures.com/patterns/cartographer.png")];
 }
-
+  
 ::-webkit-scrollbar {
   background-color: #000;
   width: 10px;

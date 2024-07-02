@@ -16,7 +16,7 @@ const Home = () => {
                 className={`absolute mt-5 flex items-center gap-4 border-4 border-black px-2 py-1.5 transition duration-500
                 ${theme === 'light' ? 'bg-amber-300' : 'bg-gray-800'} rounded-full`}
                 >
-                    <Sun size={35} className={`transition duration-500 ${theme === 'light' ? 'text-gray-500' : 'text-amber-600'}`} />
+                    <Sun size={35} className={`transition duration-500 ${theme === 'light' ? 'text-gray-500' : 'text-amber-500'}`} />
                     <Moon size={35} className={`transition duration-500 ${theme === 'light' ? 'text-black' : 'text-gray-500'}`} />
                 </button>
             </div>
