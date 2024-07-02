@@ -21,7 +21,7 @@ code {
 }
 
 body {
-  background-color: #141414;
+  @apply bg-[#141414] dark:bg-gray-300;
   background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre.png");
 }
 

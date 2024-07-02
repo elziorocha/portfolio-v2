@@ -30,5 +30,6 @@ export default {
   plugins: [
     textShadowPlugin,
   ],
+  darkMode: "class",
 }
 

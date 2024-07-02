@@ -8,7 +8,7 @@ const Apresentação = () => {
 
                 <hr className="w-80 self-center rounded-full border-2 border-black lg:w-2/3" />
 
-                <div className="mb-6 flex flex-col gap-8 text-justify md:text-left">
+                <div className="mb-6 flex flex-col gap-8 text-left">
                     <div className="flex flex-row items-start gap-x-4">
                         <CornerDownRight size={35} className="hidden md:block"/>
                         <h1 className="w-2/3 items-start text-2xl font-semibold text-shadow">
@@ -24,7 +24,7 @@ const Apresentação = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col gap-8 text-justify md:text-right">
+                <div className="flex flex-col gap-8 text-right">
                     <div className="flex flex-row items-start gap-x-4">
                         <h1 className="ml-auto w-2/3 items-start text-2xl font-semibold text-shadow">
                             Colocando em prática tecnologias e conhecimentos obtidos em aulas e projetos pessoais

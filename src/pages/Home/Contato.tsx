@@ -47,7 +47,7 @@ const Contato = () => {
     return (
         <>
             <div className='flex flex-col items-center justify-center gap-8 font-Nunito'>
-                <h1 className="mt-8 text-center text-3xl font-bold text-orange-600 text-shadow-md md:text-5xl">
+                <h1 className="mt-8 px-2 text-center text-3xl font-bold text-orange-600 text-shadow-md md:text-5xl">
                     Entre em contato comigo!
                 </h1>
 
@@ -70,7 +70,7 @@ const Contato = () => {
                     shadow-[-5px_5px_0_1px_#ea580c,-8px_8px_0px_1px_black,-3px_8px_0px_1px_black,-8px_2px_0px_1px_black] transition-all duration-200 hover:text-github md:size-36 lg:size-28'/></a>
                 </div>
 
-                <h1 className="mt-4 text-center text-3xl font-bold text-orange-600 text-shadow-md md:text-5xl">
+                <h1 className="mt-4 px-2 text-center text-3xl font-bold text-orange-600 text-shadow-md md:text-5xl">
                     Me envie uma mensagem!
                 </h1>
 
