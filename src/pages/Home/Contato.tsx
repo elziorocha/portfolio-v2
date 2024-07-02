@@ -47,7 +47,7 @@ const Contato = () => {
     return (
         <>
             <div className='flex flex-col items-center justify-center gap-8 font-Nunito'>
-                <h1 className="mt-8 px-2 text-center text-3xl font-bold text-orange-600
+                <h1 className="-mb-6 mt-8 px-2 text-center text-3xl font-bold text-orange-600
                 text-shadow-md dark:text-violet-800 dark:text-shadow md:text-5xl">
                     Entre em contato comigo!
                 </h1>

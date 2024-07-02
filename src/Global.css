@@ -22,7 +22,8 @@ code {
 
 body {
   @apply bg-[#141414] dark:bg-slate-300;
-  @apply bg-[url("https://www.transparenttextures.com/patterns/carbon-fibre.png")]
+  @apply bg-[url("https://www.transparenttextures.com/patterns/carbon-fibre-big.png")]
+  md:bg-[url("https://www.transparenttextures.com/patterns/carbon-fibre.png")]
   dark:bg-[url("https://www.transparenttextures.com/patterns/cartographer.png")];
 }
   

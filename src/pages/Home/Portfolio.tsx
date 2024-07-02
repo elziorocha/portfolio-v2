@@ -9,7 +9,7 @@ const Portfolio = () => {
                 Meus Projetos
             </h1>
 
-            <div className="mt-1 flex flex-wrap items-center justify-center gap-10 font-Nunito">
+            <div className="flex flex-wrap items-center justify-center gap-10 font-Nunito">
                 <div className="group relative cursor-pointer items-center justify-center overflow-hidden 
                 rounded-xl border-4 border-black shadow-[0_0_15px_10px_rgb(0,0,0)] dark:shadow-[0_0_15px_6px_rgb(0,0,0)]">
                     <div className="relative size-80">

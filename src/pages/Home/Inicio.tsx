@@ -5,7 +5,7 @@ const Inicio = () => {
     return (
         <>
             <div className="mt-24 flex w-10/12 flex-col items-center justify-center gap-12 self-center rounded-xl
-            border-8 border-black p-10 font-Nunito text-orange-600 shadow-[inset_0_3px_30px_8px_rgb(0,0,0)] dark:border-[#bdb6b600]
+            border-4 border-black p-10 font-Nunito text-orange-600 shadow-[inset_0_3px_30px_8px_rgb(0,0,0)] dark:border-[#bdb6b600]
             dark:text-violet-800 md:p-16 lg:flex-row lg:p-12 xl:w-9/12">
                 <div className="flex flex-col gap-4 text-center font-semibold text-shadow-md dark:text-shadow">
                     <h1 className="text-[2.75rem] md:text-7xl xl:text-7xl">Enzo Rocha</h1>
