@@ -21,7 +21,7 @@ code {
 }
 
 body {
-  @apply bg-[#141414] dark:bg-slate-300;
+  @apply bg-[#1f1e1e] dark:bg-slate-300 md:bg-[#141414];
   @apply bg-[url("https://www.transparenttextures.com/patterns/carbon-fibre-big.png")]
   md:bg-[url("https://www.transparenttextures.com/patterns/carbon-fibre.png")]
   dark:bg-[url("https://www.transparenttextures.com/patterns/cartographer.png")];
@@ -33,10 +33,10 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(234 88 12);
+  @apply bg-orange-600 dark:bg-violet-600;
   border-radius: 50px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgb(190, 68, 2);
+  @apply bg-orange-800 dark:bg-violet-800;
 }
