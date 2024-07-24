@@ -28,7 +28,6 @@ const Portfolio = () => {
                     </a>
                 </div>
 
-
                 <div className="group relative cursor-pointer items-center justify-center overflow-hidden
                 rounded-xl border-4 border-black shadow-[0_0_15px_10px_rgb(0,0,0)] dark:shadow-[0_0_15px_6px_rgb(0,0,0)]">
                     <div className="relative size-80">
@@ -50,15 +49,15 @@ const Portfolio = () => {
                 <div className="group relative cursor-pointer items-center justify-center overflow-hidden 
                 rounded-xl border-4 border-black shadow-[0_0_15px_10px_rgb(0,0,0)] dark:shadow-[0_0_15px_6px_rgb(0,0,0)]">
                     <div className="relative size-80">
-                        <img src={'/images/WorldTravel.png'} alt="World Travel" className="size-full object-cover" />
+                        <img src={'/images/PampaWeather.png'} alt="Pampa Weather" className="size-full object-cover" />
                         <div className="absolute inset-0 bg-orange-600/85 backdrop-blur-sm transition-all duration-500 group-hover:bg-orange-600/0
                         group-hover:backdrop-blur-none dark:bg-violet-700/85">
                             <div className="absolute inset-0 flex items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
-                                <span className="text-3xl font-bold text-white text-shadow">WorldTravel</span>
+                                <span className="text-3xl font-bold text-white text-shadow">PampaWeather</span>
                             </div>
                         </div>
                     </div>
-                    <a href='https://worldtravel.onrender.com/' target="_blank" rel="noopener noreferrer">
+                    <a href='https://pampaweather.netlify.app/' target="_blank" rel="noopener noreferrer">
                         <div className="absolute inset-0 flex h-20 translate-y-80 items-center justify-center border-t-4 border-black bg-black/95 transition-all duration-500 group-hover:translate-y-60">
                             <button className="group text-2xl font-bold text-white hover:bg-orange-600/0 group-hover:backdrop-blur-none">Acessar</button>
                         </div>
@@ -86,15 +85,15 @@ const Portfolio = () => {
                 <div className="group relative cursor-pointer items-center justify-center overflow-hidden 
                 rounded-xl border-4 border-black shadow-[0_0_15px_10px_rgb(0,0,0)] dark:shadow-[0_0_15px_6px_rgb(0,0,0)]">
                     <div className="relative size-80">
-                        <img src={'/images/weatherapp.png'} alt="weather app" className="size-full object-cover" />
+                        <img src={'/images/WorldTravel.png'} alt="weather app" className="size-full object-cover" />
                         <div className="absolute inset-0 bg-orange-600/85 backdrop-blur-sm transition-all duration-500 group-hover:bg-orange-600/0
                         group-hover:backdrop-blur-none dark:bg-violet-700/85">
                             <div className="absolute inset-0 flex items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
-                                <span className="text-3xl font-bold text-white text-shadow">Weather App</span>
+                                <span className="text-3xl font-bold text-white text-shadow">WorldTravel</span>
                             </div>
                         </div>
                     </div>
-                    <a href='https://weatherapp-2p09.onrender.com' target="_blank" rel="noopener noreferrer">
+                    <a href='https://worldtravel.onrender.com/' target="_blank" rel="noopener noreferrer">
                         <div className="absolute inset-0 flex h-20 translate-y-80 items-center justify-center border-t-4 border-black bg-black/95 transition-all duration-500 group-hover:translate-y-60">
                             <button className="group text-2xl font-bold text-white hover:bg-orange-600/0 group-hover:backdrop-blur-none">Acessar</button>
                         </div>
