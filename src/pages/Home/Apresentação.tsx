@@ -4,7 +4,7 @@ import { CornerDownLeft, CornerDownRight } from "lucide-react"
 const Apresentação = () => {
     return (
         <>
-            <div className="flex flex-col gap-10 px-6 font-Nunito text-2xl font-semibold text-orange-600
+            <div className="flex flex-col gap-10 px-6 text-2xl font-semibold text-orange-600
             text-shadow dark:font-bold dark:text-violet-800 dark:text-shadow-none xl:px-24">
 
                 <hr className="w-80 self-center rounded-full border-2 border-black lg:w-2/3" />

@@ -25,6 +25,14 @@ export default {
         'github': '#8d26e7',
         'linkedin': '#0077B5',
       },
+      boxShadow: {
+        'inset': 'inset 0 3px 30px 10px rgba(0, 0, 0, 1)',
+        'dark-inset' : 'inset 0 3px 25px 6px rgba(0, 0, 0, 1)',
+        'contact': '-5px 5px 0 1px #ea580c, -8px 8px 0px 1px black, -3px 8px 0px 1px black, -8px 2px 0px 1px black',
+        'dark-contact' : '-5px 5px 0 1px #4c1d95, -8px 8px 0px 1px black, -3px 8px 0px 1px black, -8px 2px 0px 1px black',
+        'portfolio': '0 0 15px 10px rgba(0, 0, 0, 1)',
+        'dark-portfolio': '0 0 15px 6px rgba(0, 0, 0, 1)',
+      },
     },
   },
   plugins: [

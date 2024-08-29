@@ -21,10 +21,12 @@ code {
 }
 
 body {
-  @apply bg-[#1f1e1e] dark:bg-slate-300 md:bg-[#141414];
+  @apply bg-[#2c2b2b] dark:bg-slate-300 md:bg-[#141414];
   @apply bg-[url("https://www.transparenttextures.com/patterns/carbon-fibre-big.png")]
   md:bg-[url("https://www.transparenttextures.com/patterns/carbon-fibre.png")]
   dark:bg-[url("https://www.transparenttextures.com/patterns/cartographer.png")];
+  
+  @apply font-Nunito;
 }
   
 ::-webkit-scrollbar {
