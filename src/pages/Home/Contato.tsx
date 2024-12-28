@@ -46,6 +46,8 @@ const Contato = () => {
 
     return (
         <>
+            <hr className="w-9/12 self-center rounded-full border-2 border-black " />
+            
             <div className='flex flex-col items-center justify-center gap-8'>
                 <h1 className="mt-8 px-2 text-center text-3xl font-bold text-orange-600
                 text-shadow-md dark:text-violet-800 dark:text-shadow md:text-5xl">
